@@ -410,7 +410,7 @@ LOCAL_SRC_FILES:= \
 	src/utils/SkUnitMappers.cpp \
 	src/lazy/SkDiscardableMemoryPool.cpp \
 	src/lazy/SkDiscardablePixelRef.cpp \
-	src/lazy/SkCachingPixelRef.cpp 
+	src/lazy/SkCachingPixelRef.cpp
 
 #	src/utils/SkBitmapHasher.cpp \
 
