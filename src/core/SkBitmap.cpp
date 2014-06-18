@@ -613,6 +613,10 @@ SkColor SkBitmap::getColor(int x, int y) const {
     SkASSERT(false);  // Not reached.
     return 0;
 }
+
+extern "C" void _ZN8SkBitmap11setIsOpaqueEb(bool isOpaque) {
+}
+
 bool SkBitmap::ComputeIsOpaque(const SkBitmap& bm) {
     SkAutoLockPixels alp(bm);
     if (!bm.getPixels()) {
